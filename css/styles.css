@@ -33,7 +33,7 @@ nav {
 }
 
 nav ul li a {
-    font-size: .9rem;    
+    font-size: .9rem;
 }
 
 nav ul li {
@@ -103,8 +103,11 @@ footer b {
     background: linear-gradient(#a5cbe1, #d1e4ee, #f0f0f0);
 }
 
-#side-bar li {
+#side-bar > *, #quick-links > * {
     background-color: white;
+}
+
+#side-bar li {
     border-style: dotted;
     border-width: 0 0 2px 0;
     padding: 4px 4px 4px 12px;
@@ -112,5 +115,30 @@ footer b {
 
 #side-bar li a {
     color: #103770;
+}
+
+li a, img, footer p {
     cursor: pointer;
+}
+
+#quick-links p {
+    margin-bottom: -16px;
+    padding: 4px;
+}
+
+#quick-links ul {
+    list-style-image: url('../img/bulletarrow.png');
+    font-size: 12px;
+    padding: 0 0 20px 22px;
+    margin-bottom: -16px;
+}
+
+#quick-links li a, #quick-links p {
+    color: #305388;
+}
+
+#quick-links img {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
 }
