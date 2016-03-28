@@ -1,3 +1,8 @@
+html {
+    background-color: #f0f0f0;
+    font-family: Arial;
+}
+
 #header * {
     box-shadow: none;
 }
@@ -13,7 +18,6 @@
 
 #logo-bar > div > span {
     margin-left: 190px;
-    vertical-align: middle;
 }
 
 nav {
@@ -25,7 +29,11 @@ nav {
     padding-top: 2rem;
     border-width: 0 0 3px 0;
     border-style: solid;
-    border-color: #feae3f;
+    border-color: #ffc000;
+}
+
+nav ul li a {
+    font-size: .9rem;    
 }
 
 nav ul li {
@@ -38,21 +46,21 @@ nav ul li {
 }
 
 nav ul li.active {
-    border-color: #feae3f;
-    background: #feae3f;
-    background: -webkit-linear-gradient(#ffc043, #fca13c);
-    background: -o-linear-gradient(#ffc043, #fca13c);
-    background: -moz-linear-gradient(#ffc043, #fca13c);
-    background: linear-gradient(#ffc043, #fca13c);
+    border-color: #ffc000;
+    background: #ffc000;
+    background: -webkit-linear-gradient(#ffd204, #fdb300);
+    background: -o-linear-gradient(#ffd204, #fdb300);
+    background: -moz-linear-gradient(#ffd204, #fdb300);
+    background: linear-gradient(#ffd204, #fdb300);
 }
 
 nav ul li:hover, nav ul a:hover {
-    border-color: #e39136;
-    background: #e39136;
-    background: -webkit-linear-gradient(#e4a33b, #e18433);
-    background: -o-linear-gradient(#e4a33b, #e18433);
-    background: -moz-linear-gradient(#e4a33b, #e18433);
-    background: linear-gradient(#e4a33b, #e18433);
+    border-color: #e4a300;
+    background: #e4a300;
+    background: -webkit-linear-gradient(#e5b504, #e29600);
+    background: -o-linear-gradient(#e5b504, #e29600);
+    background: -moz-linear-gradient(#e5b504, #e29600);
+    background: linear-gradient(#e5b504, #e29600);
 }
 
 .container {
@@ -61,7 +69,7 @@ nav ul li:hover, nav ul a:hover {
 }
 
 .nbd-indigo {
-    background-color: #112655;
+    background-color: #112655 !important;
 }
 
 .nbd-blue {
@@ -73,13 +81,36 @@ nav ul li:hover, nav ul a:hover {
 }
 
 .nbd-yellow {
-    background-color: #feae3f !important;
+    background-color: #ffc000 !important;
 }
 
-.arial {
-    font-family: Arial;
+footer b {
+    color: #ffc000;
 }
 
 .bold {
     font-weight: bold;
+}
+
+#welcome-bar {
+    color: #063887;
+    padding: 5px 0 10px 0;
+    margin-bottom: 0;
+    background: #f0f0f0;
+    background: -webkit-linear-gradient(#a5cbe1, #d1e4ee, #f0f0f0);
+    background: -o-linear-gradient(#a5cbe1, #d1e4ee, #f0f0f0);
+    background: -moz-linear-gradient(#a5cbe1, #d1e4ee, #f0f0f0);
+    background: linear-gradient(#a5cbe1, #d1e4ee, #f0f0f0);
+}
+
+#side-bar li {
+    background-color: white;
+    border-style: dotted;
+    border-width: 0 0 2px 0;
+    padding: 4px 4px 4px 12px;
+}
+
+#side-bar li a {
+    color: #103770;
+    cursor: pointer;
 }
