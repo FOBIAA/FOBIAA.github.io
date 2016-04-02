@@ -86,6 +86,18 @@ nav ul li:hover, nav ul a:hover {
     background-color: #ffc000 !important;
 }
 
+.gold {
+    background-color: #ffd700;
+}
+
+.silver {
+    background-color: #c0c0c0;
+}
+
+.bronze {
+    background-color: #cd7f32;
+}
+
 footer b {
     color: #ffc000;
 }
@@ -207,6 +219,19 @@ a, img, footer p {
     }
 }
 
+#ocd {
+    font-family: "Roboto";
+}
+
 .tabs {
     margin-top: 1rem;
+}
+
+.determinate {
+    width: 75%;
+}
+
+.filled {
+    border-bottom: 1px solid #26a69a !important;
+    box-shadow: 0 1px 0 0 #26a69a !important;
 }
