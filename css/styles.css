@@ -70,7 +70,7 @@ nav ul li:hover, nav ul a:hover {
     background-color: #112655 !important;
 }
 
-.nbd-blue {
+.nbd-blue, .tabs .indicator {
     background-color: #0a2964;
 }
 
@@ -109,7 +109,7 @@ hr, nav ul li.active, #nav-bar {
     background: linear-gradient(#a5cbe1, #d1e4ee, #f0f0f0);
 }
 
-#side-bar > *, #quick-links > *, #summary-area > * {
+#side-bar > *, #quick-links > *, #nbd > * {
     background-color: white;
 }
 
@@ -139,7 +139,7 @@ a, img, footer p {
     margin-bottom: -16px;
 }
 
-#quick-links li a, #quick-links p {
+#quick-links li a, #quick-links p, .tabs .tab a:hover {
     color: #305388;
 }
 
@@ -193,7 +193,7 @@ a, img, footer p {
     float: right;
 }
 
-#text2 h5 {
+#text2 h5, .tabs .tab a {
     color: #08276a;
 }
 
@@ -205,4 +205,8 @@ a, img, footer p {
     #divider {
         border-right: 0;
     }
+}
+
+.tabs {
+    margin-top: 1rem;
 }
