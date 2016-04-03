@@ -102,4 +102,16 @@ $(document).ready(function() {
     });
     
     $("#nav-dashboard").trigger("click");
+
+    $(".modal-trigger").leanModal();
 });
+
+function percent() {
+    document.getElementById("percent1").style.display = "block";
+    document.getElementById("fixed1").style.display = "none";
+}
+
+function fixed() {
+    document.getElementById("fixed1").style.display = "block";
+    document.getElementById("percent1").style.display = "none";
+}
