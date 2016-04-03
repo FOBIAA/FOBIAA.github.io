@@ -31,10 +31,6 @@ nav {
     border-style: solid;
 }
 
-nav ul li a {
-    font-size: .9rem;
-}
-
 nav ul li {
     width: 11.111111%;
     text-align: center;
@@ -42,6 +38,11 @@ nav ul li {
     border-color: #194086;
     border-width: 1px 1px 1px 0;
     background-color: #0a2964;
+    font-size: .9rem;
+}
+
+nav ul li.active, #nav-bar, hr {
+    border-color: #ffc000;
 }
 
 nav ul li.active {
@@ -52,7 +53,7 @@ nav ul li.active {
     background: linear-gradient(#ffd204, #fdb300);
 }
 
-nav ul li:hover, nav ul a:hover {
+nav ul li:hover {
     border-color: #e4a300;
     background: #e4a300;
     background: -webkit-linear-gradient(#e5b504, #e29600);
@@ -74,7 +75,7 @@ nav ul li:hover, nav ul a:hover {
     background-color: #0a2964;
 }
 
-.nbd-blue-text, nav ul a:hover, nav ul li.active a {
+.nbd-blue-text, nav ul li:hover, nav ul li.active {
     color: #112655;
 }
 
@@ -102,10 +103,6 @@ footer b {
     color: #ffc000;
 }
 
-hr, nav ul li.active, #nav-bar {
-    border-color: #ffc000;
-}
-
 .bold {
     font-weight: bold;
 }
@@ -121,7 +118,7 @@ hr, nav ul li.active, #nav-bar {
     background: linear-gradient(#a5cbe1, #d1e4ee, #f0f0f0);
 }
 
-#side-bar > *, #quick-links > *, #nbd > * {
+#side-bar > *, #quick-links > *, #nbd > *, #transfer > * {
     background-color: white;
 }
 
@@ -135,7 +132,7 @@ hr, nav ul li.active, #nav-bar {
     color: #103770;
 }
 
-a, img, footer p {
+a, img, footer p, nav li {
     cursor: pointer;
 }
 
@@ -223,8 +220,62 @@ a, img, footer p {
     font-family: "Roboto";
 }
 
-.tabs {
+.tabs, #transfer {
     margin-top: 1rem;
+}
+
+#transfer > div.row {
+    padding: 12px;
+}
+
+#transfer > div.row > .row {
+    margin-bottom: 10px;
+}
+
+#transfer i {
+    font-size: 1.1rem;
+    color: #f44336;
+}
+
+#transfer .red-text, #transfer > div.row > p {
+    font-size: .8rem;
+}
+
+#transfer h6 {
+    background-color: #f0f0f0;
+    padding: 8px 6px;
+    margin: 0 -6px;
+}
+
+#transfer p {
+    padding: 0;
+}
+
+#transfer select.browser-default {
+    background-color: buttonface;
+    border: 1px solid #a9a9a9;
+    border-radius: 0;
+    height: 1.9rem;
+    padding: 4px !important;
+}
+
+#transfer input {
+    padding: 1px 0;
+    margin-top: 14px;
+    color: inherit;
+    background-color: white;
+    border: 2px inset;
+    border-bottom: 2px inset !important;
+    height: 1.7rem;
+    box-shadow: none;
+}
+
+#transfer div.valign-wrapper {
+    margin: -14px 0;
+}
+
+#transfer div.top {
+    margin-top: 10px;
 }
 
 .determinate {
@@ -234,4 +285,12 @@ a, img, footer p {
 .filled {
     border-bottom: 1px solid #26a69a !important;
     box-shadow: 0 1px 0 0 #26a69a !important;
+}
+
+#red-box > span {
+    background-color: #ffe4ca;
+    border: 1px solid #ffc2a7;
+    font-size: .9rem;
+    margin-left: 25%;
+    padding: 3px 15% 3px 5px;
 }
