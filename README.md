@@ -1,9 +1,11 @@
-FOBIAA Website - One Click Donation
+FOBIAA - One Click Donation
 ---
 
+Under development software for EmiratesNBD bank
 
 The website can be accessed through the following URLs:
-> - https://FOBIAA.github.io/ocd
+> - [FOBIAA.TK](http://fobiaa.tk)
+> - [FOBIAA.github.io](https://fobiaa.github.io)
 
 
 ####Resources
@@ -15,4 +17,4 @@ The website can be accessed through the following URLs:
 
 Copyright (C) 2016 by FOBIAA.
 
-This website is licensed under MIT License. A copy of the license can be found [here](https://github.com/FOBIAA/ocd/blob/gh-pages/LICENSE.md).
+This website is licensed under MIT License. A copy of the license can be found [here](https://github.com/FOBIAA/FOBIAA.github.io/blob/master/LICENSE.md).
