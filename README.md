@@ -4,7 +4,6 @@ FOBIAA - One Click Donation
 Under development software for EmiratesNBD bank
 
 The website can be accessed through the following URLs:
-> - [FOBIAA.TK](http://fobiaa.tk)
 > - [FOBIAA.github.io](https://fobiaa.github.io)
 
 
